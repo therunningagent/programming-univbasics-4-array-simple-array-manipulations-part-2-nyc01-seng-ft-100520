@@ -12,5 +12,9 @@ def using_uniq(parameter)
 end 
 
 def using_flatten(parameter)
-  parameter.flatten 
+  parameter.flatten
+end 
+
+def using_delete(array, string)
+  array.delete
 end 
