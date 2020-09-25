@@ -10,3 +10,7 @@ end
 def using_uniq(parameter)
   parameter.uniq
 end 
+
+def using_flatten(parameter)
+  parameter.flatten 
+end 
